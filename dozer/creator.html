@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grid</title>
+	<script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
+	<script src='creator.js' type='text/javascript'></script>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+	<div class="container creator">
+		Width: <select class="fn-set-size width 1-100"></select>
+		Height: <select class="fn-set-size height 1-100"></select>
+		<button id='active' class="fn-selector active selected"></button>
+		<button id='rock' class="fn-selector rock"></button>
+		<button id='goal' class="fn-selector goal"></button>
+		<button id='wall' class="fn-selector wall"></button>
+		<button id='' class="fn-selector delete">Delete</button>
+		<div id="map">
+		</div>
+
+		<button class="fn-get-json">Get JSON</button>
+		<div class="json"></div>
+	</div>
+</body>
+</html>
