@@ -6,10 +6,10 @@ Play game here: [brhendr.github.io/dozer](http://brhendr.github.io/dozer)
 
 #To Do
 - lock phone from landscape
-- add movement buttons for touch
-- remove json scripts so github page friendly
+- ~~add movement buttons for touch~~
+- ~~remove json scripts so github page friendly~~
 - Preload all images
-- Wait to show win until last animation complete
+- ~~Wait to show win until last animation complete~~
 - Game Clock vs. Move Counter?
 
 #Known Issues
