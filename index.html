@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Grid</title>
+	<meta content="width=device-width,initial-scale=1" name="viewport">
+	<title>Dozer Game</title>
 	<script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
-	<link rel='stylesheet' type='text/css' href='style.css'>
+	<link rel='stylesheet' type='text/css' href='build/style.min.css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 <body>
 	<div class="container">
@@ -12,7 +14,16 @@
 		<div id="map">
 		</div><br>	
 	</div>
-	
+	<div class="buttons">
+		<div class="control-left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+		<div class="vert">
+			<div class="control-up"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+			<div class="control-down"><i class="fa fa-angle-down" aria-hidden="true"></i></div>	
+		</div>
+		<div class="control-right"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+	</div>
 </body>
-<script src='script.min.js' type='text/javascript'></script>
+<script src='build/json.js' type='text/javascript'></script>
+<!-- <script src='build/script.min.js' type='text/javascript'></script> -->
+<script src='js/blockGame.js' type='text/javascript'></script>
 </html>
