@@ -2,7 +2,7 @@
 ---
 Bulldozer block game. The goal is to move all of the rocks onto the targets. Use your arrow keys to move your bulldozer.
 
-Play game here: [brhendr.github.io/dozer](brhendr.github.io/dozer) 
+Play game here: [http://brhendr.github.io/dozer](brhendr.github.io/dozer) 
 
 #To Do
 - lock phone from landscape
